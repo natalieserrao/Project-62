@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Harry Potter Photogallery</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="tabs">Home</li>
+        <li class="tabs"><a href="#grid">Grid view</a></li>
+        <li class="tabs"><a href="#sliding">Slide view</a></li>
+    </ul>
+    <section id="grid">
+        <h2>Grid View</h2>
+        <br>
+        <div id="gridview">
+            <img class="Characters" src="Harry%20Potter.jpg">
+            <img class="Characters" src="Hermione%20Granger.jpg">
+            <img class="Characters" src="Ron%20Weasley.jpg">
+            <img class="Characters" src="Draco%20Malfoy.jpg">
+        </div>
+        <br>
+        <br>
+        <div id="gridview2">
+            <img class="Characters" src="Albus%20Dumbledore.jpg">
+            <img class="Characters" src="Minavra%20McGonagall.jpg">
+            <img class="Characters" src="Severus%20Snape">
+            <img class="Characters" src="Flitwik.jpg">
+        </div>
+    </section>
+    <section id="sliding">
+        <h2>Sliding View</h2>
+        <div id='my_carousel' class="carouse_slide">
+            <div class="carousel-inner">
+                <div class="item"> <img class="img-responsive" src="Harry%20Potter.jpg" alt="Harry Potter" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Harry Potter</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item active"> <img class="img-responsive" src="Hermione%20Granger.jpg" alt="Hermione Granger" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Hermione Granger</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item active"> <img class="img-responsive" src="Ron%20Weasley.jpg" alt="Ronald Weasley" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Ronald Weasley</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a class="left_carousel_control" href="#my_carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right_carousel_control" href="#my_carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</body>
+
+</html>
